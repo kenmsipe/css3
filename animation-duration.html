@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div
+{
+width:100px;
+height:100px;
+background:orange;
+animation:myfirst 5s;
+
+-webkit-animation:myfirst 5s; /* Safari and Chrome */
+
+}
+
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {background:black;}
+to {background:green;}
+}
+
+
+</style>
+</head>
+<body>
+
+<p><b>Note:</b> This example does not work in Internet Explorer.</p>
+
+<div></div>
+<p>
+div
+{
+width:100px;
+height:100px;
+background:orange;
+
+
+-webkit-animation:myfirst 5s; /* Safari and Chrome */
+
+}<br/>
+
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {background:black;}
+to {background:green;}
+}
+
+//With the @keyframes rule, you can create animations.
+
+The animation is created by gradually changing from one set of CSS styles to another.
+</p>
+
+</body>
+</html>
+
